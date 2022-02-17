@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">39,330</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Test2</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">4</td><td class="num">50,054</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">14</th><th class="num">0</th><th class="num">0</th><th class="num attn">6</th><th class="num">89,384</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">test.ValidationChrome</td><td><a href="#m0">validateDeliveryPincode</a></td><td rowspan="1">1645129373997</td><td rowspan="1">3906</td></tr><tr class="failedeven"><td><a href="#m1">validateIframe</a></td><td rowspan="1">1645129377907</td><td rowspan="1">5450</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="8">test.ValidationChrome</td><td><a href="#m2">invalidEmailInvalidPassword</a></td><td rowspan="1">1645129357049</td><td rowspan="1">4554</td></tr><tr class="passedeven"><td><a href="#m3">validEmailValidPassword</a></td><td rowspan="1">1645129361606</td><td rowspan="1">4915</td></tr><tr class="passedeven"><td><a href="#m4">validateAmazonCash</a></td><td rowspan="1">1645129355297</td><td rowspan="1">1748</td></tr><tr class="passedeven"><td><a href="#m5">validateCreateaWishList</a></td><td rowspan="1">1645129350748</td><td rowspan="1">2237</td></tr><tr class="passedeven"><td><a href="#m6">validateMobilePrice</a></td><td rowspan="1">1645129366536</td><td rowspan="1">7459</td></tr><tr class="passedeven"><td><a href="#m7">validateNewReleases</a></td><td rowspan="1">1645129352992</td><td rowspan="1">2303</td></tr><tr class="passedeven"><td><a href="#m8">validateTitle</a></td><td rowspan="1">1645129350718</td><td rowspan="1">28</td></tr><tr class="passedeven"><td><a href="#m9">validateURL</a></td><td rowspan="1">1645129350598</td><td rowspan="1">113</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Test2 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="4">test.ValidationFirefox</td><td><a href="#m10">validateAmazonCash</a></td><td rowspan="1">1645129396404</td><td rowspan="1">667</td></tr><tr class="failedeven"><td><a href="#m11">validateDeliveryPincode</a></td><td rowspan="1">1645129416983</td><td rowspan="1">5040</td></tr><tr class="failedeven"><td><a href="#m12">validateIframe</a></td><td rowspan="1">1645129422028</td><td rowspan="1">10091</td></tr><tr class="failedeven"><td><a href="#m13">validateMobilePrice</a></td><td rowspan="1">1645129405950</td><td rowspan="1">11030</td></tr><tr><th colspan="4">Test2 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">test.ValidationFirefox</td><td><a href="#m14">invalidEmailInvalidPassword</a></td><td rowspan="1">1645129397075</td><td rowspan="1">4246</td></tr><tr class="passedeven"><td><a href="#m15">validEmailValidPassword</a></td><td rowspan="1">1645129401324</td><td rowspan="1">4623</td></tr><tr class="passedeven"><td><a href="#m16">validateCreateaWishList</a></td><td rowspan="1">1645129391692</td><td rowspan="1">2804</td></tr><tr class="passedeven"><td><a href="#m17">validateNewReleases</a></td><td rowspan="1">1645129394500</td><td rowspan="1">1901</td></tr><tr class="passedeven"><td><a href="#m18">validateTitle</a></td><td rowspan="1">1645129391649</td><td rowspan="1">40</td></tr><tr class="passedeven"><td><a href="#m19">validateURL</a></td><td rowspan="1">1645129391621</td><td rowspan="1">25</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">test.ValidationChrome#validateDeliveryPincode</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: this is not the pin expected [true] but found [false]
+	at test.ValidationChrome.validateDeliveryPincode(ValidationChrome.java:151)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">test.ValidationChrome#validateIframe</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;a-link-normal sp_hqp_shared_adLink a-text-normal&apos;]&quot;}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-EMDLV1KE&apos;, ip: &apos;10.0.0.110&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\pavit\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60354}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: ANY, platformName: ANY, proxy: Proxy(), se:cdp: ws://10.0.0.110:4444/sessio..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dfede97a1c198903523e95cc2c6a2864
+*** Element info: {Using=xpath, value=//a[@class=&apos;a-link-normal sp_hqp_shared_adLink a-text-normal&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+	at pom.NavigateActions.iframeClickAction(NavigateActions.java:249)
+	at test.ValidationChrome.validateIframe(ValidationChrome.java:162)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">test.ValidationChrome#invalidEmailInvalidPassword</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>abcdefg@gmail.com</td><td>abcdefg1234</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages">this is a valid Create a wishlist page https://www.amazon.ca/ap/signin</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">test.ValidationChrome#validEmailValidPassword</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>pavithra.vijayaraju@gmail.com</td><td>Amazeme2022!!</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages">the login is successful https://www.amazon.ca/ref=nav_ya_signin?</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">test.ValidationChrome#validateAmazonCash</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">this is a valid Create a wishlist page https://www.amazon.ca/gp/browse.html?node=17321486011&ref_=footer_cash_ca_en</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">test.ValidationChrome#validateCreateaWishList</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">this is a valid Create a wishlist page https://www.amazon.ca/hz/wishlist/intro</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">test.ValidationChrome#validateMobilePrice</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">this is the actual price$429.00</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">test.ValidationChrome#validateNewReleases</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">this is a valid Create a wishlist page https://www.amazon.ca/gp/new-releases/?ref_=nav_cs_newreleases</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">test.ValidationChrome#validateTitle</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">this is the correct Title>>Amazon.ca: Low Prices – Fast Shipping – Millions of Items</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">test.ValidationChrome#validateURL</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">this is the correct URL>>https://www.amazon.ca/</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test2</h2><h3 id="m10">test.ValidationFirefox#validateAmazonCash</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: this is a not a valid page  expected [true] but found [false]
+	at test.ValidationFirefox.validateAmazonCash(ValidationFirefox.java:88)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">test.ValidationFirefox#validateDeliveryPincode</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to locate element: #contextualIngressPtLabel_deliveryShortLine
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-EMDLV1KE&apos;, ip: &apos;10.0.0.110&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 97.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 2860, moz:profile: C:\Users\pavit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://10.0.0.110:4444/sessio..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3590f47c-282f-49f7-a9a8-41651493af72
+*** Element info: {Using=id, value=contextualIngressPtLabel_deliveryShortLine}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+	at pom.NavigateActions.deliveryLocationAction(NavigateActions.java:226)
+	at test.ValidationFirefox.validateDeliveryPincode(ValidationFirefox.java:146)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">test.ValidationFirefox#validateIframe</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.id: ape_Detail_hero-quick-promo_Desktop_iframe&apos; (tried for 5 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at pom.NavigateActions.iframeClickAction(NavigateActions.java:246)
+	at test.ValidationFirefox.validateIframe(ValidationFirefox.java:161)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: #ape_Detail_hero\-quick\-promo_Desktop_iframe
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-EMDLV1KE&apos;, ip: &apos;10.0.0.110&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 97.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 2860, moz:profile: C:\Users\pavit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://10.0.0.110:4444/sessio..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3590f47c-282f-49f7-a9a8-41651493af72
+*** Element info: {Using=id, value=ape_Detail_hero-quick-promo_Desktop_iframe}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 30 more
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">test.ValidationFirefox#validateMobilePrice</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[RemoteWebDriver: firefox on WINDOWS (3590f47c-282f-49f7-a9a8-41651493af72)] -&gt; xpath: (//a[@id=&apos;nav-item-signout&apos;])[1]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-EMDLV1KE&apos;, ip: &apos;10.0.0.110&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 97.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 2860, moz:profile: C:\Users\pavit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://10.0.0.110:4444/sessio..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3590f47c-282f-49f7-a9a8-41651493af72
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at pom.NavigateActions.mobilePriceAction(NavigateActions.java:209)
+	at test.ValidationFirefox.validateMobilePrice(ValidationFirefox.java:135)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">test.ValidationFirefox#invalidEmailInvalidPassword</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>abcdefg@gmail.com</td><td>abcdefg1234</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages">this is a valid Create a wishlist page https://www.amazon.ca/ap/signin</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">test.ValidationFirefox#validEmailValidPassword</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>pavithra.vijayaraju@gmail.com</td><td>Amazeme2022!!</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages">the login is successful https://www.amazon.ca/ref=ap_frn_logo/?_encoding=UTF8&ref_=nav_ya_signin&</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">test.ValidationFirefox#validateCreateaWishList</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">this is a valid Create a wishlist page https://www.amazon.ca/hz/wishlist/intro</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">test.ValidationFirefox#validateNewReleases</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">this is a valid Create a wishlist page https://www.amazon.ca/gp/new-releases/?ref_=nav_cs_newreleases</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">test.ValidationFirefox#validateTitle</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">this is the correct Title>>Amazon.ca: Low Prices – Fast Shipping – Millions of Items</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">test.ValidationFirefox#validateURL</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">this is the correct URL>>https://www.amazon.ca/</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

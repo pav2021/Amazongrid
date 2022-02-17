@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="validpassword" value="Amazeme2022!!"/>
+  <parameter name="invalidemail" value="abcdefg@gmail.com"/>
+  <parameter name="validemail" value="pavithra.vijayaraju@gmail.com"/>
+  <parameter name="invalidpassword" value="abcdefg1234"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="test.ValidationChrome">
+        <methods>
+          <include name="validateIframe"/>
+          <include name="validateDeliveryPincode"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- test.ValidationChrome -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="test.ValidationFirefox">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="validateIframe"/>
+          <include name="validateDeliveryPincode"/>
+          <include name="validateAmazonCash"/>
+          <include name="beforeSuite"/>
+          <include name="validateMobilePrice"/>
+        </methods>
+      </class> <!-- test.ValidationFirefox -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

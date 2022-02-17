@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="14" failed="6" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[this is the correct URL>>https://www.amazon.ca/]]>
+    </line>
+    <line>
+      <![CDATA[this is the correct Title>>Amazon.ca: Low Prices – Fast Shipping – Millions of Items]]>
+    </line>
+    <line>
+      <![CDATA[this is a valid Create a wishlist page https://www.amazon.ca/hz/wishlist/intro]]>
+    </line>
+    <line>
+      <![CDATA[this is a valid Create a wishlist page https://www.amazon.ca/gp/new-releases/?ref_=nav_cs_newreleases]]>
+    </line>
+    <line>
+      <![CDATA[this is a valid Create a wishlist page https://www.amazon.ca/gp/browse.html?node=17321486011&ref_=footer_cash_ca_en]]>
+    </line>
+    <line>
+      <![CDATA[this is a valid Create a wishlist page https://www.amazon.ca/ap/signin]]>
+    </line>
+    <line>
+      <![CDATA[the login is successful https://www.amazon.ca/ref=nav_ya_signin?]]>
+    </line>
+    <line>
+      <![CDATA[this is the actual price$429.00]]>
+    </line>
+    <line>
+      <![CDATA[this is the correct URL>>https://www.amazon.ca/]]>
+    </line>
+    <line>
+      <![CDATA[this is the correct Title>>Amazon.ca: Low Prices – Fast Shipping – Millions of Items]]>
+    </line>
+    <line>
+      <![CDATA[this is a valid Create a wishlist page https://www.amazon.ca/hz/wishlist/intro]]>
+    </line>
+    <line>
+      <![CDATA[this is a valid Create a wishlist page https://www.amazon.ca/gp/new-releases/?ref_=nav_cs_newreleases]]>
+    </line>
+    <line>
+      <![CDATA[this is a valid Create a wishlist page https://www.amazon.ca/ap/signin]]>
+    </line>
+    <line>
+      <![CDATA[the login is successful https://www.amazon.ca/ref=ap_frn_logo/?_encoding=UTF8&ref_=nav_ya_signin&]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-02-17T15:22:25 EST" name="Suite" finished-at="2022-02-17T15:23:54 EST" duration-ms="89444">
+    <groups>
+    </groups>
+    <test started-at="2022-02-17T15:22:25 EST" name="Test" finished-at="2022-02-17T15:23:04 EST" duration-ms="39330">
+      <class name="test.ValidationChrome">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:test.ValidationChrome@2e4b8173]" started-at="2022-02-17T15:22:25 EST" name="beforeSuite" finished-at="2022-02-17T15:22:30 EST" duration-ms="5375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="validateURL()[pri:1, instance:test.ValidationChrome@2e4b8173]" started-at="2022-02-17T15:22:30 EST" name="validateURL" finished-at="2022-02-17T15:22:30 EST" duration-ms="113" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[this is the correct URL>>https://www.amazon.ca/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateURL -->
+        <test-method signature="validateTitle()[pri:2, instance:test.ValidationChrome@2e4b8173]" started-at="2022-02-17T15:22:30 EST" name="validateTitle" finished-at="2022-02-17T15:22:30 EST" duration-ms="28" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[this is the correct Title>>Amazon.ca: Low Prices – Fast Shipping – Millions of Items]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method signature="validateCreateaWishList()[pri:3, instance:test.ValidationChrome@2e4b8173]" started-at="2022-02-17T15:22:30 EST" name="validateCreateaWishList" finished-at="2022-02-17T15:22:32 EST" duration-ms="2237" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[this is a valid Create a wishlist page https://www.amazon.ca/hz/wishlist/intro]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateCreateaWishList -->
+        <test-method signature="validateNewReleases()[pri:4, instance:test.ValidationChrome@2e4b8173]" started-at="2022-02-17T15:22:32 EST" name="validateNewReleases" finished-at="2022-02-17T15:22:35 EST" duration-ms="2303" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[this is a valid Create a wishlist page https://www.amazon.ca/gp/new-releases/?ref_=nav_cs_newreleases]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateNewReleases -->
+        <test-method signature="validateAmazonCash()[pri:5, instance:test.ValidationChrome@2e4b8173]" started-at="2022-02-17T15:22:35 EST" name="validateAmazonCash" finished-at="2022-02-17T15:22:37 EST" duration-ms="1748" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[this is a valid Create a wishlist page https://www.amazon.ca/gp/browse.html?node=17321486011&ref_=footer_cash_ca_en]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateAmazonCash -->
+        <test-method signature="invalidEmailInvalidPassword(java.lang.String,java.lang.String)[pri:6, instance:test.ValidationChrome@2e4b8173]" started-at="2022-02-17T15:22:37 EST" name="invalidEmailInvalidPassword" finished-at="2022-02-17T15:22:41 EST" duration-ms="4554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcdefg@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcdefg1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[this is a valid Create a wishlist page https://www.amazon.ca/ap/signin]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidEmailInvalidPassword -->
+        <test-method signature="validEmailValidPassword(java.lang.String,java.lang.String)[pri:7, instance:test.ValidationChrome@2e4b8173]" started-at="2022-02-17T15:22:41 EST" name="validEmailValidPassword" finished-at="2022-02-17T15:22:46 EST" duration-ms="4915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pavithra.vijayaraju@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amazeme2022!!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[the login is successful https://www.amazon.ca/ref=nav_ya_signin?]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validEmailValidPassword -->
+        <test-method signature="validateMobilePrice()[pri:8, instance:test.ValidationChrome@2e4b8173]" started-at="2022-02-17T15:22:46 EST" name="validateMobilePrice" finished-at="2022-02-17T15:22:53 EST" duration-ms="7459" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[this is the actual price$429.00]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateMobilePrice -->
+        <test-method signature="validateDeliveryPincode()[pri:9, instance:test.ValidationChrome@2e4b8173]" started-at="2022-02-17T15:22:53 EST" name="validateDeliveryPincode" finished-at="2022-02-17T15:22:57 EST" duration-ms="3906" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[this is not the pin expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: this is not the pin expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at test.ValidationChrome.validateDeliveryPincode(ValidationChrome.java:151)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeliveryPincode -->
+        <test-method signature="validateIframe()[pri:10, instance:test.ValidationChrome@2e4b8173]" started-at="2022-02-17T15:22:57 EST" name="validateIframe" finished-at="2022-02-17T15:23:03 EST" duration-ms="5450" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='a-link-normal sp_hqp_shared_adLink a-text-normal']"}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EMDLV1KE', ip: '10.0.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\pavit\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60354}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: ANY, platformName: ANY, proxy: Proxy(), se:cdp: ws://10.0.0.110:4444/sessio..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dfede97a1c198903523e95cc2c6a2864
+*** Element info: {Using=xpath, value=//a[@class='a-link-normal sp_hqp_shared_adLink a-text-normal']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='a-link-normal sp_hqp_shared_adLink a-text-normal']"}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EMDLV1KE', ip: '10.0.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\pavit\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60354}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: ANY, platformName: ANY, proxy: Proxy(), se:cdp: ws://10.0.0.110:4444/sessio..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dfede97a1c198903523e95cc2c6a2864
+*** Element info: {Using=xpath, value=//a[@class='a-link-normal sp_hqp_shared_adLink a-text-normal']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at pom.NavigateActions.iframeClickAction(NavigateActions.java:249)
+at test.ValidationChrome.validateIframe(ValidationChrome.java:162)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIframe -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:test.ValidationChrome@2e4b8173]" started-at="2022-02-17T15:23:03 EST" name="afterSuite" finished-at="2022-02-17T15:23:04 EST" duration-ms="1145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test.ValidationChrome -->
+    </test> <!-- Test -->
+    <test started-at="2022-02-17T15:23:04 EST" name="Test2" finished-at="2022-02-17T15:23:54 EST" duration-ms="50054">
+      <class name="test.ValidationFirefox">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:test.ValidationFirefox@68999068]" started-at="2022-02-17T15:23:04 EST" name="beforeSuite" finished-at="2022-02-17T15:23:11 EST" duration-ms="7054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="validateURL()[pri:1, instance:test.ValidationFirefox@68999068]" started-at="2022-02-17T15:23:11 EST" name="validateURL" finished-at="2022-02-17T15:23:11 EST" duration-ms="25" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[this is the correct URL>>https://www.amazon.ca/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateURL -->
+        <test-method signature="validateTitle()[pri:2, instance:test.ValidationFirefox@68999068]" started-at="2022-02-17T15:23:11 EST" name="validateTitle" finished-at="2022-02-17T15:23:11 EST" duration-ms="40" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[this is the correct Title>>Amazon.ca: Low Prices – Fast Shipping – Millions of Items]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method signature="validateCreateaWishList()[pri:3, instance:test.ValidationFirefox@68999068]" started-at="2022-02-17T15:23:11 EST" name="validateCreateaWishList" finished-at="2022-02-17T15:23:14 EST" duration-ms="2804" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[this is a valid Create a wishlist page https://www.amazon.ca/hz/wishlist/intro]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateCreateaWishList -->
+        <test-method signature="validateNewReleases()[pri:4, instance:test.ValidationFirefox@68999068]" started-at="2022-02-17T15:23:14 EST" name="validateNewReleases" finished-at="2022-02-17T15:23:16 EST" duration-ms="1901" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[this is a valid Create a wishlist page https://www.amazon.ca/gp/new-releases/?ref_=nav_cs_newreleases]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateNewReleases -->
+        <test-method signature="validateAmazonCash()[pri:5, instance:test.ValidationFirefox@68999068]" started-at="2022-02-17T15:23:16 EST" name="validateAmazonCash" finished-at="2022-02-17T15:23:17 EST" duration-ms="667" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[this is a not a valid page  expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: this is a not a valid page  expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at test.ValidationFirefox.validateAmazonCash(ValidationFirefox.java:88)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAmazonCash -->
+        <test-method signature="invalidEmailInvalidPassword(java.lang.String,java.lang.String)[pri:6, instance:test.ValidationFirefox@68999068]" started-at="2022-02-17T15:23:17 EST" name="invalidEmailInvalidPassword" finished-at="2022-02-17T15:23:21 EST" duration-ms="4246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcdefg@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcdefg1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[this is a valid Create a wishlist page https://www.amazon.ca/ap/signin]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidEmailInvalidPassword -->
+        <test-method signature="validEmailValidPassword(java.lang.String,java.lang.String)[pri:7, instance:test.ValidationFirefox@68999068]" started-at="2022-02-17T15:23:21 EST" name="validEmailValidPassword" finished-at="2022-02-17T15:23:25 EST" duration-ms="4623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pavithra.vijayaraju@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amazeme2022!!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[the login is successful https://www.amazon.ca/ref=ap_frn_logo/?_encoding=UTF8&ref_=nav_ya_signin&]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validEmailValidPassword -->
+        <test-method signature="validateMobilePrice()[pri:8, instance:test.ValidationFirefox@68999068]" started-at="2022-02-17T15:23:25 EST" name="validateMobilePrice" finished-at="2022-02-17T15:23:36 EST" duration-ms="11030" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of [[RemoteWebDriver: firefox on WINDOWS (3590f47c-282f-49f7-a9a8-41651493af72)] -> xpath: (//a[@id='nav-item-signout'])[1]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EMDLV1KE', ip: '10.0.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 97.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 2860, moz:profile: C:\Users\pavit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://10.0.0.110:4444/sessio..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3590f47c-282f-49f7-a9a8-41651493af72]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[RemoteWebDriver: firefox on WINDOWS (3590f47c-282f-49f7-a9a8-41651493af72)] -> xpath: (//a[@id='nav-item-signout'])[1]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EMDLV1KE', ip: '10.0.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 97.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 2860, moz:profile: C:\Users\pavit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://10.0.0.110:4444/sessio..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3590f47c-282f-49f7-a9a8-41651493af72
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at pom.NavigateActions.mobilePriceAction(NavigateActions.java:209)
+at test.ValidationFirefox.validateMobilePrice(ValidationFirefox.java:135)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMobilePrice -->
+        <test-method signature="validateDeliveryPincode()[pri:9, instance:test.ValidationFirefox@68999068]" started-at="2022-02-17T15:23:36 EST" name="validateDeliveryPincode" finished-at="2022-02-17T15:23:42 EST" duration-ms="5040" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: #contextualIngressPtLabel_deliveryShortLine
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EMDLV1KE', ip: '10.0.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 97.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 2860, moz:profile: C:\Users\pavit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://10.0.0.110:4444/sessio..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3590f47c-282f-49f7-a9a8-41651493af72
+*** Element info: {Using=id, value=contextualIngressPtLabel_deliveryShortLine}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #contextualIngressPtLabel_deliveryShortLine
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EMDLV1KE', ip: '10.0.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 97.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 2860, moz:profile: C:\Users\pavit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://10.0.0.110:4444/sessio..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3590f47c-282f-49f7-a9a8-41651493af72
+*** Element info: {Using=id, value=contextualIngressPtLabel_deliveryShortLine}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+at pom.NavigateActions.deliveryLocationAction(NavigateActions.java:226)
+at test.ValidationFirefox.validateDeliveryPincode(ValidationFirefox.java:146)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeliveryPincode -->
+        <test-method signature="validateIframe()[pri:10, instance:test.ValidationFirefox@68999068]" started-at="2022-02-17T15:23:42 EST" name="validateIframe" finished-at="2022-02-17T15:23:52 EST" duration-ms="10091" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: ape_Detail_hero-quick-promo_Desktop_iframe' (tried for 5 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: ape_Detail_hero-quick-promo_Desktop_iframe' (tried for 5 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at pom.NavigateActions.iframeClickAction(NavigateActions.java:246)
+at test.ValidationFirefox.validateIframe(ValidationFirefox.java:161)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: #ape_Detail_hero\-quick\-promo_Desktop_iframe
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EMDLV1KE', ip: '10.0.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 97.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 2860, moz:profile: C:\Users\pavit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://10.0.0.110:4444/sessio..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3590f47c-282f-49f7-a9a8-41651493af72
+*** Element info: {Using=id, value=ape_Detail_hero-quick-promo_Desktop_iframe}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIframe -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:test.ValidationFirefox@68999068]" started-at="2022-02-17T15:23:52 EST" name="afterSuite" finished-at="2022-02-17T15:23:54 EST" duration-ms="2496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test.ValidationFirefox -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
